@@ -1,0 +1,53 @@
+
+.container{
+  padding-top: 20px;
+  font-family: 'Lora', serif;
+  color: white;
+  
+}
+.todo{
+  border-radius: 10px;
+  background-color: #660033;
+  text-align: left;
+  width: 600px;
+  
+  margin: auto;
+}
+.content{
+  
+  padding: 10px 10px 10px 10px;
+  
+}
+
+#task{
+  margin-left: 20px;
+height: 40px;
+ width: 270px;
+
+}
+#datepicker{
+  height: 40px;
+  width: 200px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#todo-items {
+    border-spacing: 15px;
+  margin: 30px 20px 20px 20px;
+font-size: 15px;
+}
+
+#todo-items th,td{
+  padding: 8px;
+  border-bottom: 1px solid white;
+}
+#todo-items td:nth-child(1){
+  width: 300px;
+}
+#todo-items tr:hover{
+  background-color: #cc0044;
+}
+.delete{
+  cursor: pointer;
+}
